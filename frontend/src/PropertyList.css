@@ -1,0 +1,99 @@
+.property-list-container {
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.properties {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.property-card {
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+}
+
+.property-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.property-card h3 {
+    margin-top: 0;
+}
+
+.property-card button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    right: 15px;
+}
+
+.property-card button:hover {
+    background-color: #0056b3;
+}
+
+.seller-details {
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+.seller-details h3 {
+    margin-top: 0;
+}
+
+.error-message {
+    color: red;
+    margin-bottom: 20px;
+}
+
+.confirmation-message {
+    color: green;
+    margin-bottom: 20px;
+}
+
+.property-list-container {
+    /* Your existing styles */
+    min-height: calc(100vh - 150px); /* Adjust height to leave space for footer */
+    padding-bottom: 50px; /* Adjust padding bottom to leave space for footer */
+}
+
+.search-bar{
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    
+}
+
+.search-button {
+    background-color: blue;
+    color: white;
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+}
+.search-input{
+    width: 400px;
+    height: 50px;
+    border-radius: 10px;
+}

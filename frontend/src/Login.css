@@ -1,0 +1,94 @@
+/* Login.css */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f2f5;
+}
+
+.login-container {
+  max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 30%;
+    margin-top: 10%;
+    background-color: whitesmoke;
+
+}
+
+.login-heading {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.error-message {
+  color: #ff4d4f;
+  margin-bottom: 10px;
+}
+
+.success-message {
+  color: #52c41a;
+  margin-bottom: 10px;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-input {
+  margin-bottom: 15px;
+  padding: 10px;
+  font-size: 16px;
+  width: 300px;
+  box-sizing: border-box;
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+  transition: border-color 0.3s;
+}
+
+.login-input:focus {
+  border-color: #40a9ff;
+  outline: none;
+}
+
+.login-button, .register-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  width: 100%;
+  max-width: 300px;
+  margin-top: 10px;
+  transition: background-color 0.3s;
+}
+
+.login-button {
+  background-color: #1890ff;
+  color: white;
+}
+
+.login-button:hover {
+  background-color: #40a9ff;
+}
+
+.register-button {
+  background-color: #52c41a;
+  color: white;
+  margin-top: 20px;
+  width: 100px;
+  margin-left: 10px;
+}
+
+.register-button:hover {
+  background-color: #73d13d;
+}
+
+.Register-Part{
+  margin-top: 30px;
+}

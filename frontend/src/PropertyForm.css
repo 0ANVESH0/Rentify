@@ -1,0 +1,81 @@
+/* Container for the form */
+.property-form-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f7f7f7;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+  }
+  
+  .property-form-container:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Heading of the form */
+  .property-form-heading {
+    margin-bottom: 20px;
+    font-size: 28px;
+    text-align: center;
+    color: #333;
+    font-weight: 700;
+  }
+  
+  /* Form styling */
+  .property-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Common styles for input fields */
+  .property-form input {
+    margin-bottom: 15px;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+  }
+  
+  .property-form input:focus {
+    border-color: #4CAF50;
+    outline: none;
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+  }
+  
+  /* Button styling */
+  .property-form button {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .property-form button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Error message styling */
+  .error-message {
+    color: red;
+    margin-bottom: 15px;
+    font-size: 14px;
+    text-align: center;
+  }
+  
+  /* Success message styling */
+  .success-message {
+    color: green;
+    margin-bottom: 15px;
+    font-size: 14px;
+    text-align: center;
+  }
+  
