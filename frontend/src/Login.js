@@ -29,6 +29,7 @@ function Login() {
         try {
             const response = await axios.post('http://localhost:8000/login/', formData);
             const userData = response.data;
+
             setUser({
                 firstname: userData.firstname,
                 lastname: userData.lastname,
@@ -41,6 +42,8 @@ function Login() {
                 email: userData.email,
                 phone: userData.phone
             }));
+            localStorage.setItem('token', userData.token);
+
             navigate('/');
         } catch (error) {
             if (error.response) {

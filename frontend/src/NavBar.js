@@ -4,6 +4,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import { UserContext } from './UserContext';
 import './NavBar.css';
 
+
 const NavBar = () => {
     const { user, setUser } = useContext(UserContext);
     const [dropdownOpen, setDropdownOpen] = useState(false);
@@ -29,12 +30,11 @@ const NavBar = () => {
 
     return (
         <nav className="navbar">
-            <h1>Rentify</h1>
+            <h1>RENTIFY</h1>
             <ul>
                 <li><Link to="/">Home</Link></li>
-                <li><Link to="/">Buy</Link></li>
-                <li><Link to="/">Sell</Link></li>
-                <li><Link to="/add-property" onClick={handleAddPropertyClick}>Add Property</Link></li>
+                
+                
                 {user ? (
                     <li className={`dropdown ${dropdownOpen ? 'open' : ''}`}>
                         <span onClick={toggleDropdown} className="dropdown-toggle">
@@ -49,6 +49,7 @@ const NavBar = () => {
                 ) : (
                     <li><Link to="/login">Login</Link></li>
                 )}
+                <li><Link to="/add-property" onClick={handleAddPropertyClick}>Add Property</Link></li>
             </ul>
         </nav>
     );

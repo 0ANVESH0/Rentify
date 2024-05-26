@@ -1,0 +1,44 @@
+/* UpdateProperty.css */
+
+.update-property-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.update-property-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.update-property-form input {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.update-property-form button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.update-property-form button:hover {
+    background-color: #0056b3;
+}
+
+.error-message {
+    color: red;
+    margin-top: 10px;
+}
+
+.success-message {
+    color: green;
+    margin-top: 10px;
+}

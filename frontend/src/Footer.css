@@ -1,7 +1,56 @@
-/* Footer.css */
-.footer {
-    background-color: darkslategray;
-    color: white;
-    padding: 1rem;
-    text-align: center;
+/* App.css */
+body {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+.MDBFooter {
+    background-color: #1c1c1c; /* Dark background for the footer */
+    color: #ffffff;
+}
+
+.MDBFooter a {
+    color: #bdbdbd; /* Light grey color for links */
+}
+
+.MDBFooter a:hover {
+    color: #ffffff; /* White color on hover */
+}
+
+.MDBFooter .text-reset {
+    color: #bdbdbd;
+}
+
+.MDBFooter .text-reset:hover {
+    color: #ffffff;
+}
+
+.MDBFooter h6 {
+    color: #ffffff; /* White color for headings */
+}
+
+.MDBFooter p {
+    color: #bdbdbd; /* Light grey color for paragraphs */
+}
+
+.MDBFooter .border-bottom {
+    border-bottom: 1px solid #333333;
+}
+
+.MDBFooter .me-4 {
+    margin-right: 1.5rem !important;
+}
+
+.MDBFooter .me-3 {
+    margin-right: 1rem !important;
+}
+
+.MDBFooter .me-2 {
+    margin-right: 0.5rem !important;
+}
+
+.MDBFooter .text-center {
+    background-color: #333333; /* Dark background for the bottom section */
+    color: #ffffff;
 }

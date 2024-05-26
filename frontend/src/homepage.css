@@ -1,0 +1,13 @@
+.animated-heading {
+    animation: dropDown 2s ease-out forwards;
+    font-size: 3em; 
+    animation-duration: 1.6s;  
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes dropDown {
+    from {top: 0px;}
+    to {top: 500px;}
+  }
+
+  

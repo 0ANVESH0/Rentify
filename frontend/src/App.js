@@ -6,10 +6,15 @@ import './App.css';
 //import PropertyForm from './PropertyForm';
 import RoutePage from './Route';
 
+
+
+
 function App() {
   return (
     <div className="App">
+      
       <RoutePage />
+      
     </div>
   );
 }

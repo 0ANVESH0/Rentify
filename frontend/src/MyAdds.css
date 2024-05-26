@@ -1,0 +1,99 @@
+/* MyAdds.css */
+
+/* Container for My Adds */
+.my-adds-container {
+    margin-top: 50px; /* Adjust as needed */
+    padding: 20px;
+    background-color: #f5f5f5; /* Light gray background */
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Drop shadow */
+  }
+  
+  /* Title */
+  h2 {
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Properties List */
+  .properties-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap; /* Enable wrapping for smaller screens */
+    justify-content: space-between; /* Distribute items evenly */
+  }
+  
+  /* Individual Property Item */
+  .property-item {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: calc(33.33% - 20px); /* Adjust width here */
+    margin-bottom: 20px;
+    overflow: hidden;
+    position: relative; /* Add position relative */
+  }
+  
+  /* Property Actions */
+  .property-actions {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    display: flex;
+    gap: 10px;
+  }
+  
+  /* MyAdds.css */
+
+/* Add hover styles for the delete and update buttons */
+.delete-button,
+.action-link {
+    /* Your default button styles */
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+/* Hover styles */
+.delete-button:hover
+ {
+    background-color: #cc0000; /* Darker red background on hover */
+}
+
+.action-link:hover{
+    background-color: greenyellow;
+
+}
+
+  
+  /* Property Details */
+  .property-details {
+    padding: 10px;
+    padding-bottom: 40px; /* Add padding to the bottom */
+  }
+  
+  .property-details p {
+    margin: 5px 0;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .my-adds-container {
+      margin-top: 20px; /* Adjust margin for smaller screens */
+    }
+  
+    h2 {
+      font-size: 20px;
+    }
+  
+    .property-item {
+      width: calc(50% - 20px); /* Adjust width for smaller screens */
+    }
+  }
+  
